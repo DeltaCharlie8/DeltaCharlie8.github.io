@@ -1,0 +1,59 @@
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+.Selected{
+    animation:SelectedText 1.2s infinite;
+    background-color: blue;
+}
+
+@keyframes SelectedText{
+    0%{     color: yellow;    }
+    49%{    color: yellow; }
+    60%{    color: transparent; }
+    99%{    color: transparent;  }
+    100%{   color: yellow;    }
+}
+
+body {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: VT323;
+  background-color: Black;
+}
+
+.HeadingWrapper{
+  margin: 10px;
+  background-color: blue;
+  padding: 15px;
+}
+
+ul {
+  border: 10px solid red;
+  list-style-type: none;
+  margin: 10px;
+  padding: 20px;
+  display: inline-block;
+  float: left;
+}
+
+li{
+  padding: 10px;
+}
+
+.scrollingtextWrapper {
+  margin: 10px;
+  border: 10px solid red;
+  color: cyan;
+  display: block;
+  padding: 10px;
+}
