@@ -41,7 +41,7 @@ ul {
   padding: 20px;
   display: inline-block;
   float: left;
-  width: auto;
+  width: 36%;
 }
 
 li{
@@ -69,4 +69,48 @@ li{
   padding: 10px;
   border: 10px solid blue;
   display: inline-block;
+}
+
+/* Contactpage css */
+
+#ContactPage{
+  display: grid;
+  grid-template-columns: 42% auto;
+}
+#Contact, #FindUs{
+  border: 10px solid yellow;
+  margin: 10px;
+  padding: 20px;
+}
+#Contact{
+  grid-row-start: span 2;
+}
+#Contact textarea{
+  height: 300px;
+  resize: none;
+}
+#Contact input, textarea{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: white;
+}
+#Contact input[type=Submit]{
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: white;
+  background-color: blue;
+}
+#Contact input[type=Submit]:hover{
+  color: white;
+  background-color: magenta;
+}
+iframe{
+  border: 0;
+  margin: 0;
+  width: 100%;
+  height: 65%;
 }
