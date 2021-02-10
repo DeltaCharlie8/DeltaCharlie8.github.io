@@ -136,3 +136,33 @@ iframe{
   width: 100%;
   height: 65%;
 }
+
+
+/* Project page css */
+
+#projects{
+  float: center;
+}
+
+#Levels{
+  margin: 10px;
+  padding: 5px;
+  display: inline-block;
+  width: 97.5%;
+  text-align: center;
+  font-size: 120%;
+}
+
+#Beginner{
+  border: 10px solid white;
+  }
+
+#Intermediate{
+  border: 10px solid yellow;
+  color: yellow;
+  }
+
+#Advanced{
+  border: 10px solid red;
+  color: red;
+  }
