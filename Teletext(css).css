@@ -39,9 +39,7 @@ ul {
   list-style-type: none;
   margin: 10px;
   padding: 20px;
-  display: inline-block;
   float: left;
-  width: 36%;
 }
 
 li{
@@ -72,25 +70,41 @@ marquee{
 
 /* homepage css */
 
-#eventsWrapper{
-  margin: 10px;
-  padding: 10px;
-  border: 10px solid blue;
-  display: inline-block;
-  float: right;
-  width: 53%;
-}
-
-.events{
-  text-align: center;
-  list-style-type: none;
-}
-
 #textWrapper{
   margin: 10px;
   padding: 10px;
   border: 10px solid blue;
   display: inline-block;
+}
+
+/* Infopage css */
+
+#eventsWrapper{
+  border: 10px solid blue;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.events{
+  font-size: 25;
+  text-align: center;
+  list-style-type: none;
+}
+
+#twitterWrapper{
+float: left;
+padding: 10px;
+}
+
+#textwrapperInfo{
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  height: 475px;
+  border: 10px solid cyan;
 }
 
 /* Contactpage css */
@@ -137,7 +151,6 @@ iframe{
   height: 65%;
 }
 
-
 /* Project page css */
 
 #projects{
@@ -165,4 +178,52 @@ iframe{
 #Advanced{
   border: 10px solid red;
   color: red;
+  }
+
+  /* Mechanics page css */
+
+  #imageLocation{
+    overflow: hidden;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    height: 393px;
+    text-align: center;
+    position: relative;
+    border: 10px solid cyan;
+  }
+
+  #carImage{
+    max-width: 100%;
+    width: 750px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  #pageInfoMechanics{
+    border: 10px solid magenta;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .grid-container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 5px solid yellow;
+  }
+
+  .grid-item {
+    border: 5px solid yellow;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-item:hover{
+    background-color: blue;
   }
