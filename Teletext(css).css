@@ -227,3 +227,23 @@ iframe{
   .grid-item:hover{
     background-color: blue;
   }
+
+/* Embroidery page css */
+
+#EmbroideryIntro{
+  display: inline-block;
+  border: 10px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+#Threads{
+  display: inline-block;
+  border: 10px solid cyan;
+  padding: 10px;
+  margin: 10px;
+}
+
+#Titles{
+  text-decoration: underline;
+}
