@@ -109,6 +109,11 @@ padding: 10px;
 
 /* Contactpage css */
 
+#Robot{
+  display: inline-block;
+  float: left;
+}
+
 #ContactPage{
   display: grid;
   grid-template-columns: 42% auto;
@@ -230,6 +235,14 @@ iframe{
 
 /* Embroidery page css */
 
+#Embroidery_Image{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  width: 50%;
+}
+
 #EmbroideryIntro{
   display: inline-block;
   border: 10px solid red;
@@ -242,6 +255,22 @@ iframe{
   border: 10px solid cyan;
   padding: 10px;
   margin: 10px;
+}
+
+#Fabrics{
+  display: inline-block;
+  border: 10px solid magenta;
+  padding: 10px;
+  margin: 10px;
+}
+
+#FabricList{
+  text-align: left;
+  border: 1px solid black;
+  list-style-type: none;
+  margin: 0.1px;
+  padding: 1px;
+  float: left;
 }
 
 #Titles{
