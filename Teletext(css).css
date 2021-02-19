@@ -162,6 +162,14 @@ iframe{
   float: center;
 }
 
+#Project_Welcome{
+  border: 10px solid blue;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
 #Levels{
   margin: 10px;
   padding: 5px;
@@ -271,6 +279,7 @@ iframe{
   margin: 0.1px;
   padding: 1px;
   float: left;
+  box-shadow: 0:0:0;
 }
 
 #Titles{
