@@ -81,6 +81,19 @@ marquee{
   display: inline-block;
 }
 
+#creditsWrapper{
+  text-align: center;
+  -webkit-animation: rainbow 5s infinite;
+}
+
+@-webkit-keyframes rainbow{
+	0%{color: red;}
+	20%{color: yellow;}
+  40%{color: cyan;}
+	60%{color: blue;}
+  80%{color: magenta;}
+}
+
 /* Infopage css */
 
 #eventsWrapper{
@@ -89,7 +102,7 @@ marquee{
   margin: 10px;
   padding: 10px;
   margin-top: 20px;
-  height: 509px;
+  height: 620px;
 }
 
 .events{
@@ -108,7 +121,7 @@ padding: 10px;
   position: relative;
   padding: 10px;
   margin: 10px;
-  height: 475px;
+  height: 490px;
   border: 10px solid cyan;
 }
 
@@ -208,7 +221,7 @@ iframe{
     margin: 10px;
     padding: 20px;
     margin-top: 20px;
-    height: 508px;
+    height: 620px;
     text-align: center;
     position: relative;
     border: 10px solid cyan;
@@ -323,6 +336,7 @@ iframe{
   border: 10px solid red;
   padding: 10px;
   margin: 10px;
+  margin-top: 229px;
 }
 
 .grid-container2 {
@@ -354,11 +368,10 @@ iframe{
 .column {
   float: left;
   width: 25%;
-  padding: 30px; /* Should be removed. Only for demonstration */
+  padding: 30px;
 
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
