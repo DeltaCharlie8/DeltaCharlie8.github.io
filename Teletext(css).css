@@ -81,6 +81,19 @@ marquee{
   display: inline-block;
 }
 
+#creditsWrapper{
+  text-align: center;
+  -webkit-animation: rainbow 5s infinite;
+}
+
+@-webkit-keyframes rainbow{
+	0%{color: red;}
+	20%{color: yellow;}
+  40%{color: cyan;}
+	60%{color: blue;}
+  80%{color: magenta;}
+}
+
 /* Infopage css */
 
 #eventsWrapper{
