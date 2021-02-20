@@ -82,7 +82,12 @@ marquee{
 }
 
 #creditsWrapper{
+  margin: 10px;
+  border: 10px solid;
+  width: 65%;
+  height: 620px;
   text-align: center;
+  float: right;
   -webkit-animation: rainbow 5s infinite;
 }
 
@@ -365,10 +370,19 @@ iframe{
   height: 620px;
 }
 
+#bikeTyreImage{
+  width: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%, 50%);
+}
+
 .column {
+  border: 10px solid magenta;
   float: left;
   width: 25%;
-  padding: 30px;
+  padding: 40px;
+  height: 500px;
 
 }
 
