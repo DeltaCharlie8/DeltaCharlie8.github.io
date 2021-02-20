@@ -1,5 +1,10 @@
 /* Site wide classes */
 
+
+.maxWidth{
+  max-width: 1920px;
+  min-width: 1920px;
+}
 * {
   box-sizing: border-box;
 }
