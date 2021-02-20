@@ -1,5 +1,9 @@
 /* Site wide classes */
 
+* {
+  box-sizing: border-box;
+}
+
 .center{
   display: block;
   margin-left: auto;
@@ -85,6 +89,7 @@ marquee{
   margin: 10px;
   padding: 10px;
   margin-top: 20px;
+  height: 509px;
 }
 
 .events{
@@ -203,7 +208,7 @@ iframe{
     margin: 10px;
     padding: 20px;
     margin-top: 20px;
-    height: 393px;
+    height: 508px;
     text-align: center;
     position: relative;
     border: 10px solid cyan;
@@ -332,4 +337,30 @@ iframe{
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+
+/* bicycle css */
+
+#bikeInfo{
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  float: right;
+  width: 65%;
+  border: 10px solid yellow;
+  height: 620px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 30px; /* Should be removed. Only for demonstration */
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
