@@ -89,7 +89,7 @@ marquee{
 #creditsWrapper{
   margin: 10px;
   border: 10px solid;
-  width: 64%;
+  width: 50%;
   height: 620px;
   text-align: center;
   float: right;
@@ -287,7 +287,7 @@ iframe{
   border: 10px solid red;
   padding: 10px;
   margin: 10px;
-  margin-top: -50px;
+  margin-top: 0px;
 }
 
 #Threads{
@@ -378,7 +378,7 @@ iframe{
   margin: 10px;
   padding: 10px;
   float: right;
-  width: 65%;
+  width: 50%;
   border: 10px solid yellow;
   height: 620px;
 }
