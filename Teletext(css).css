@@ -404,3 +404,53 @@ iframe{
   display: table;
   clear: both;
 }
+
+/* DIY css */
+
+/*DIY CSS*/
+
+
+
+#Layout{
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  width: 97.5%;
+  text-align: center;
+  font-size: 120%;
+}
+
+#Bulb{
+float: center;
+border: 10px solid blue;
+  overflow: hidden;
+  margin: 0px;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+#Painting{
+  float: center;
+border: 10px solid red;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#Plumbing{
+  float: center;
+border: 10px solid yellow;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#Shelf {
+  float: center;
+  border: 10px solid blue;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 20px;
