@@ -472,11 +472,11 @@ border: 10px solid yellow;
   height: 620px;
   float: right;
   margin-right:45px;
+}
 
 /* 3D Printing css */
 
-
-#Printing_3D{
+#PrintingHeader{
   display: block;
   position: relative;
   border: 10px solid yellow;
