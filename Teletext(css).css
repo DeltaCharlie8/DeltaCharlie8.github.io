@@ -146,10 +146,20 @@ padding: 10px;
   display: grid;
   grid-template-columns: 42% auto;
 }
-#Contact, #FindUs{
+#Contact{
   border: 10px solid yellow;
   margin: 10px;
   padding: 20px;
+  margin-bottom: 200px;
+}
+#FindUs{
+  border: 10px solid yellow;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+#map{
+  margin-bottom: 100px;
 }
 #Contact{
   grid-row-start: span 2;
